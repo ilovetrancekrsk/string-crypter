@@ -1,0 +1,39 @@
+{
+  "name": "string-crypter",
+  "version": "0.1.0",
+  "description": "The package provides encryption and decryption methods using RSA key pairs.",
+  "main": "./lib/string-crypter",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilovetrancekrsk/string-crypter.git"
+  },
+  "keywords": [
+    "cryptography",
+    "crypto",
+    "rsa"
+  ],
+  "author": {
+    "name": "Ilya Kozlov",
+    "email": "i.love.trance.krsk@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ilovetrancekrsk/string-crypter/raw/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/ilovetrancekrsk/string-crypter/issues"
+  },
+  "homepage": "https://github.com/ilovetrancekrsk/string-crypter#readme",
+  "engines": {
+    "node": ">= 10.16.3"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "should": "^13.2.3"
+  }
+}
